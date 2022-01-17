@@ -1,5 +1,5 @@
 {
-   "abstract" : "SSL support for Net::SMPP",
+   "abstract" : "SSL support for Net::SMTP",
    "author" : [
       "Stefan Stuehrmann <stefan.stuehrmann@emnify.com>"
    ],
@@ -53,6 +53,17 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/stefan-stuehrmann-EMNIFY/Net-SMPP-SSL/issues"
+      },
+      "homepage" : "https://github.com/stefan-stuehrmann-EMNIFY/Net-SMPP-SSL",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/stefan-stuehrmann-EMNIFY/Net-SMPP-SSL.git",
+         "web" : "https://github.com/stefan-stuehrmann-EMNIFY/Net-SMPP-SSL"
+      }
+   },
    "version" : "0.01",
    "x_serialization_backend" : "JSON::PP version 4.06",
    "x_static_install" : 1
