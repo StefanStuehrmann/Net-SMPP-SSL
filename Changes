@@ -2,6 +2,9 @@ Revision history for Perl extension Net-SMPP-SSL
 
 {{$NEXT}}
 
+0.02 2022-01-17T14:41:21Z
+   fixed abstract attribute
+
 0.01 2022-01-17T14:31:38Z
 
     - original version

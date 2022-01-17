@@ -1,10 +1,10 @@
 # NAME
 
-Net::SMPP::SSL - SSL support for Net::SMTP
+Net::SMPP::SSL - SSL support for Net::SMPP
 
 # SYNOPSIS
 
-       use Net::SMTP::SSL;
+       use Net::SMPP::SSL;
     
        my $ssmpp = Net::SMPP::SSL->new_connect( 'example.com', port => 3550 ); 
 

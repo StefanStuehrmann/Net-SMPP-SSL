@@ -3,7 +3,7 @@ use 5.008001;
 use strict;
 use warnings;
 
-our $VERSION = "0.01";
+our $VERSION = "0.02";
 
 use IO::Socket::SSL;
 use Net::SMPP;
@@ -31,11 +31,11 @@ __END__
 
 =head1 NAME
 
-Net::SMPP::SSL - SSL support for Net::SMTP
+Net::SMPP::SSL - SSL support for Net::SMPP
 
 =head1 SYNOPSIS
 
-    use Net::SMTP::SSL;
+    use Net::SMPP::SSL;
  
     my $ssmpp = Net::SMPP::SSL->new_connect( 'example.com', port => 3550 ); 
 
